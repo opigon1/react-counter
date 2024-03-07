@@ -21,10 +21,21 @@ function Counter({ max, min }) {
 
   return (
     <div className='counter'>
-      <button onClick={reducingTheCounter}>-</button>
-      <input type='text' value={counter} onChange={onChange} maxLength={2} />
-      {/* <p>{counter}</p> */}
-      <button onClick={increasingTheCounter}>+</button>
+      <button className='counter__btn' onClick={reducingTheCounter}>
+        −
+      </button>
+      <div className='counter__input-wrapper'>
+        <input
+          className='counter__input'
+          type='text'
+          value={counter}
+          onChange={onChange}
+          maxLength={2}
+        />
+      </div>
+      <button className='counter__btn' onClick={increasingTheCounter}>
+        +
+      </button>
     </div>
   );
 }
