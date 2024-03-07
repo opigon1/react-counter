@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Учебный проект "Counter"
+
+<img alt="Дизайн счетчика" src="https://allma.si/blog/wp-content/uploads/2021/09/counter.gif" loading="lazy">
+<h2>✨ Особенности:</h2>
+<ul>
+<li>Уметь увеличивать и уменьшать число</li>
+<li>Иметь возможность напрямую вводить число</li>
+<li>Анимация при изменении</li>
+</ul>
+<h2><a href="https://dribbble.com/shots/5896460-Simple-counter-with-animation" target="_blank" rel="noreferrer noopener"><ya-tr-span data-index="31-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Design" data-translation="Дизайн" data-ch="0" data-type="trSpan" style="visibility: initial !important;" data-selected="false">Дизайн</ya-tr-span></a></h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
