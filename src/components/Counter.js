@@ -4,11 +4,15 @@ function Counter() {
   let [counter, setCounter] = React.useState(0);
 
   function increasingTheCounter() {
-    setCounter((counter += 1));
+    if (counter >= 99) {
+      setCounter(99);
+    } else setCounter((counter += 1));
   }
 
   function reducingTheCounter() {
-    setCounter((counter -= 1));
+    if (counter <= 0) {
+      setCounter(0);
+    } else setCounter((counter -= 1));
   }
 
   return (
