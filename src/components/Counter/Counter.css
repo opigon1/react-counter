@@ -26,6 +26,15 @@
   height: 150px;
   padding: 0;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.counter__input_animate_increase {
+  transform: scale(1.1);
+}
+
+.counter__input_animate_decrease {
+  transform: scale(0.9); /* Пример уменьшения размера при уменьшении счетчика */
 }
 
 .counter__input:focus {
